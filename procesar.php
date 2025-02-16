@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p><strong>Comentario:</strong> $comentario</p>";
     echo "<p><strong>Términos y condiciones:</strong> $terminos</p>";
     /* Redirect browser */
-    header("Location: ./formularios.html");
+    header("Location: ./index.html");
 
 } else {
     echo "<p>Acceso no válido al archivo de procesamiento.</p>";
